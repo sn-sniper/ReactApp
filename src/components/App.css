@@ -1,0 +1,101 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../styles/Resto.jpg);
+  background-size: cover;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffffd1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product h2 {
+  margin-top: 0;
+}
+
+.product p {
+  color: #555;
+}
+
+.product button {
+  display: block;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #0056b3;
+}
+
+.cart {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.cart h2 {
+  margin-top: 0;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  margin-bottom: 5px;
+}
+
+.remBtn{
+  border: none;
+  background-color: transparent;
+  color:#fb3b1e;
+  transition: .2s ease-in-out;
+  width: 2rem;
+  font-size: 1.1rem;
+}
